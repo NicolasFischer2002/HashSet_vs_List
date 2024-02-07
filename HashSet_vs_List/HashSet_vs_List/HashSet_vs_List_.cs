@@ -24,8 +24,8 @@ namespace HashSet_vs_List
             // Inicializo a estrutura responsável por armazenar os valores aleatórios que serão
             // utilizados para preencher a HashSet e a List
             List<int> listValoresAleatorios = new List<int>();
-            
-            // Inicializo a estrutura que será responsável por armazenar os índeces utilizados
+
+            // Inicializo a estrutura que será responsável por armazenar os índices utilizados
             // nas verificações de pertencimento - Contains().
             List<int> listaIndicesAleatorios = new List<int>(100000);
 
@@ -37,7 +37,7 @@ namespace HashSet_vs_List
             Stopwatch cronometroHashSetPreencher = new Stopwatch();
             Stopwatch cronometroListPreencher = new Stopwatch();
 
-            // Conometro a velocidade de uma HashSet em adicionar elementos em sua estrutura
+            // Cronometro a velocidade de uma HashSet em adicionar elementos em sua estrutura
             cronometroHashSetPreencher.Start();
             PreencheEstruturaValoresAleatorios(hashset, listValoresAleatorios);
             cronometroHashSetPreencher.Stop();
@@ -45,7 +45,7 @@ namespace HashSet_vs_List
             TimeSpan tempoDecorridoPreencherHashSet = cronometroHashSetPreencher.Elapsed;
             Console.WriteLine($"Tempo decorrido para preencher hashset: {tempoDecorridoPreencherHashSet.TotalMilliseconds}");
 
-            // Conometro a velocidade de uma List em adicionar elementos em sua estrutura
+            // Cronometro a velocidade de uma List em adicionar elementos em sua estrutura
             cronometroListPreencher.Start();
             PreencheEstruturaValoresAleatorios(list, listValoresAleatorios);
             cronometroListPreencher.Stop();
@@ -62,7 +62,7 @@ namespace HashSet_vs_List
                 Console.WriteLine($"List foi {tempoDecorridoPreencherHashSet.TotalMilliseconds / tempoDecorridoPreencherList.TotalMilliseconds} " +
                     $"vezes mais veloz que HashSet na inserção de elementos");
 
-            // Preencho a lista com índeces aleatórios que serão utilizados nas verificações
+            // Preencho a lista com índices aleatórios que serão utilizados nas verificações
             // de pertencimento. Os índices serão os mesmos para ambas as estruturas, HashSet e List
             PreencheEstrutura(listaIndicesAleatorios, 50000);
 
@@ -122,10 +122,10 @@ namespace HashSet_vs_List
             }
         }
 
-        private static void VerificaExisteValorEstrutura<T>(ICollection<T> estrutura, List<T> indecesAleatorios)
+        private static void VerificaExisteValorEstrutura<T>(ICollection<T> estrutura, List<T> indicesAleatorios)
         {
-            for (int i = 0; i < indecesAleatorios.Count; i++)
-                estrutura.Contains(indecesAleatorios[i]);
+            for (int i = 0; i < indicesAleatorios.Count; i++)
+                estrutura.Contains(indicesAleatorios[i]);
         }
     }
 }
