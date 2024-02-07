@@ -1,0 +1,14 @@
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\bin\Debug\net8.0\HashSet_vs_List.exe
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\bin\Debug\net8.0\HashSet_vs_List.deps.json
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\bin\Debug\net8.0\HashSet_vs_List.runtimeconfig.json
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\bin\Debug\net8.0\HashSet_vs_List.dll
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\bin\Debug\net8.0\HashSet_vs_List.pdb
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\obj\Debug\net8.0\HashSet_vs_List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\obj\Debug\net8.0\HashSet_vs_List.AssemblyInfoInputs.cache
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\obj\Debug\net8.0\HashSet_vs_List.AssemblyInfo.cs
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\obj\Debug\net8.0\HashSet_vs_List.csproj.CoreCompileInputs.cache
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\obj\Debug\net8.0\HashSet_vs_List.dll
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\obj\Debug\net8.0\refint\HashSet_vs_List.dll
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\obj\Debug\net8.0\HashSet_vs_List.pdb
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\obj\Debug\net8.0\HashSet_vs_List.genruntimeconfig.cache
+C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\obj\Debug\net8.0\ref\HashSet_vs_List.dll
