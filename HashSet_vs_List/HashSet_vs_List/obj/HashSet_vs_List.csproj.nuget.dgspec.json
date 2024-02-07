@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Micro\\Desktop\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List.csproj": {}
+    "C:\\Desenvolvimento\\GitHub\\C#\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Micro\\Desktop\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List.csproj": {
+    "C:\\Desenvolvimento\\GitHub\\C#\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Micro\\Desktop\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\GitHub\\C#\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List.csproj",
         "projectName": "HashSet_vs_List",
-        "projectPath": "C:\\Users\\Micro\\Desktop\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List.csproj",
+        "projectPath": "C:\\Desenvolvimento\\GitHub\\C#\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List.csproj",
         "packagesPath": "C:\\Users\\Micro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Micro\\Desktop\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\obj\\",
+        "outputPath": "C:\\Desenvolvimento\\GitHub\\C#\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\HashSet_vs_List\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

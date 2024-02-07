@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HashSet_vs_List
-build_property.ProjectDir = C:\Users\Micro\Desktop\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\
+build_property.ProjectDir = C:\Desenvolvimento\GitHub\C#\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\HashSet_vs_List\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

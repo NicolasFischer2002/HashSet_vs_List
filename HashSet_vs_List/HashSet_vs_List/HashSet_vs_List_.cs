@@ -15,7 +15,6 @@ namespace HashSet_vs_List
             ComparaEficienciaHashList();
         }
 
-
         private static void ComparaEficienciaHashList()
         {
             // Inicializo as estruturas que serão alvos de comparação
@@ -33,14 +32,14 @@ namespace HashSet_vs_List
             // Preencho a lista com valores aleatórios que serão passados para a HashSet e a List
             // Ambas as estruturas que serão comparadas terão os mesmos dados e por consequência o
             // mesmo tamanho
-            PreencherEstrutura(listValoresAleatorios, 500000);
+            PreencheEstrutura(listValoresAleatorios, 500000);
 
             Stopwatch cronometroHashSetPreencher = new Stopwatch();
             Stopwatch cronometroListPreencher = new Stopwatch();
 
             // Conometro a velocidade de uma HashSet em adicionar elementos em sua estrutura
             cronometroHashSetPreencher.Start();
-            PreencherEstruturaValoresAleatorios(hashset, listValoresAleatorios);
+            PreencheEstruturaValoresAleatorios(hashset, listValoresAleatorios);
             cronometroHashSetPreencher.Stop();
 
             TimeSpan tempoDecorridoPreencherHashSet = cronometroHashSetPreencher.Elapsed;
@@ -48,7 +47,7 @@ namespace HashSet_vs_List
 
             // Conometro a velocidade de uma List em adicionar elementos em sua estrutura
             cronometroListPreencher.Start();
-            PreencherEstruturaValoresAleatorios(list, listValoresAleatorios);
+            PreencheEstruturaValoresAleatorios(list, listValoresAleatorios);
             cronometroListPreencher.Stop();
 
             TimeSpan tempoDecorridoPreencherList = cronometroListPreencher.Elapsed;
@@ -65,7 +64,7 @@ namespace HashSet_vs_List
 
             // Preencho a lista com índeces aleatórios que serão utilizados nas verificações
             // de pertencimento. Os índices serão os mesmos para ambas as estruturas, HashSet e List
-            PreencherEstrutura(listaIndicesAleatorios, 50000);
+            PreencheEstrutura(listaIndicesAleatorios, 50000);
 
             Stopwatch cronometroHashSet = new Stopwatch();
             Stopwatch cronometroList = new Stopwatch();
@@ -102,14 +101,14 @@ namespace HashSet_vs_List
                     $"vezes mais veloz que HashSet para operações de pertencimento");
         }
 
-        private static void PreencherEstruturaValoresAleatorios(ICollection<int> estrutura, List<int> valoresAleatorios)
+        private static void PreencheEstruturaValoresAleatorios(ICollection<int> estrutura, List<int> valoresAleatorios)
         {
             for (int i = 0; i < valoresAleatorios.Count; i++)
                 if (!estrutura.Contains(valoresAleatorios[i]))
                     estrutura.Add(valoresAleatorios[i]);
         }
 
-        private static void PreencherEstrutura(ICollection<int> estrutura, int quantidade)
+        private static void PreencheEstrutura(ICollection<int> estrutura, int quantidade)
         {
             Random random = new Random();
             int numeroInteiroAleatorio;
